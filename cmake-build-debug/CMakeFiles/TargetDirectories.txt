@@ -1,0 +1,3 @@
+/Users/misascherbakov/Desktop/C++/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/misascherbakov/Desktop/C++/test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/misascherbakov/Desktop/C++/test/cmake-build-debug/CMakeFiles/test.dir
