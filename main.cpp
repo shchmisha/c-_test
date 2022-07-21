@@ -57,8 +57,8 @@ void fetchBatchOccurences(const std::string &token){
 }
 
 int main(int argc, char *argv[]) {
-    clock_t start, end;
-    start = clock();
+//     clock_t start, end;
+//     start = clock();
     std::string filename = std::string(argv[1]), mask = std::string(argv[2]), line;
 
     std::string token = mask.substr(1, mask.length()-1);
@@ -96,9 +96,9 @@ int main(int argc, char *argv[]) {
         std::cout << occ.line << " " << occ.index << " " << occ.str << std::endl;
 
     }
-    end = clock();
-    double time_taken = start-end;
-    std::cout << time_taken << std::endl;
+//     end = clock();
+//     double time_taken = start-end;
+//     std::cout << time_taken << std::endl;
 
     return 0;
 }
